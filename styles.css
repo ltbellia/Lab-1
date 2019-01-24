@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: palegoldenrod;
+    text-align: left;
+}
+
+h1 {
+    margin: 0px;
+    float: left;
+}
+.navigation {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    /*Don't know how to get these spaced correctly and in line with my name*/
+
+}
+
+li {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    background-color: lightgrey;
+    float: left;
+    min-height: 500px
+
+}
+
+.sidebar {
+    width: 30%;
+    background-color: darkgray;
+    float:right; 
+    color: white;
+    min-height: 500px;
+}
+
+p {
+    margin: 20px;
+}
